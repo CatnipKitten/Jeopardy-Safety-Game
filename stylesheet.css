@@ -1,0 +1,63 @@
+/* CocoNuts Hex Colors */
+/* Yellow: #BA7E00 */
+/* Red: #A30017 */
+/* Black: #000000 */
+
+
+body {
+    background-color: #A30017;
+    color: gold;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    display: inline-block;
+}
+
+#title {
+    margin: auto;
+    padding-bottom: 5px;
+    font-family: Verdana, sans-serif;
+    width: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 5em;
+}
+
+table {
+    position: absolute;
+    width: 90%;
+    border: 10px double #000000;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+a:visited {
+    color: #B89B00;
+}
+
+a:link{
+    color: gold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFF00;
+}
+
+.tablehead {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.tabledata {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2.5em;
+    padding-top: 10px;
+}
