@@ -3,6 +3,32 @@
 /* Red: #A30017 */
 /* Black: #000000 */
 
+#main {
+    width: 100%;
+    height: auto;
+    border: 2px double black;
+}
+
+#quote {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2px;
+    color: #FFC125;
+    text-decoration: underline;
+}
+
+table {
+    margin-top: -25px;
+    border: 0.5em double black;
+    width: auto;
+}
+
+th {
+    border: 0.25em solid black;
+    padding: 10px 5px 10px 5px;
+    width: 60px;
+    font-size: 1.5em;
+}
 
 body {
     background-color: #A30017;
@@ -16,24 +42,17 @@ body {
 #header {
     width: 100%;
     display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 #title {
     margin: auto;
-    padding-bottom: 5px;
     font-family: Verdana, sans-serif;
     width: auto;
     text-align: center;
     font-weight: bolder;
     font-size: 5em;
-}
-
-table {
-    position: absolute;
-    width: 90%;
-    border: 10px double #000000;
-    display: inline-block;
-    margin: 0 auto;
 }
 
 a:visited {
@@ -47,17 +66,4 @@ a:link{
 
 a:hover {
     color: #FFFF00;
-}
-
-.tablehead {
-    text-align: center;
-    font-weight: bold;
-    font-size: 3em;
-}
-
-.tabledata {
-    text-align: center;
-    font-weight: lighter;
-    font-size: 2.5em;
-    padding-top: 10px;
 }
